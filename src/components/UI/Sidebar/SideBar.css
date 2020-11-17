@@ -1,0 +1,61 @@
+.SideBar{
+    position: fixed;
+    top : 0;
+    left:0;
+    z-index: 200;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    height: 100%;
+    width: 280px;
+    max-width: 70%;
+    transition: 0.3s ease-out;
+    padding: 32px 16px;
+    background-color:rgb(226, 174, 77);
+}
+.SideBar nav{
+    width: 90%;
+    background-color:rgb(226, 174, 77);
+}
+.SideBar ul{
+    width: 100%;
+}
+.SideBar li{
+    display: block;
+    color:  rgb(224, 153, 19);
+    font-size: 35px;
+    width: 100%;
+}
+.SideBar a{
+    display: block;
+    margin: 25px 0; 
+    width: 100%;
+    font-size: x-large;
+}
+.SideBar li:hover{
+    
+    display: block;
+    color:  white;
+    font-size: 35px;
+    background-color: rgb(224, 153, 19);
+}
+
+@media (min-width:500px){
+    .SideBar{
+        display: none;
+    }
+}
+
+.Open{
+    transform: translateX(0);
+}
+.Close{
+    transform: translateX(-100%);
+}
+.Logo{
+    background-color: antiquewhite;
+    height: 10%;
+    padding: 8px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-bottom:22px ;
+}

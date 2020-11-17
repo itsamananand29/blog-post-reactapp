@@ -1,0 +1,14 @@
+.Menu{
+    color:whitesmoke;
+    font-size: x-large;
+    border: 2px solid whitesmoke;
+    border-radius: 2px;
+    padding: 0 3px;
+    font-weight: 900;
+    display: none;
+}
+@media (min-width:500px){
+    .Menu{
+        display: block;
+    }
+}

@@ -1,0 +1,27 @@
+.Auth {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: center;
+}
+
+
+
+
+
+.Auth button {
+    margin: 15px ;
+    padding: 10px;
+    font: inherit;
+    border: 1px solid #fa923f;
+    background-color: transparent;
+    color: #fa923f;
+    cursor: pointer;
+}
+
+.Auth button:hover,
+.Auth button:active {
+    color: white;
+    background-color: #fa923f;
+}
